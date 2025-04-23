@@ -26,6 +26,12 @@ GREY COLOR: #555
     gap: 10px;
     list-style: none;
     padding: 64px;
+
+    li a{
+      color: #f03e3e;
+      font-size: 24px;
+      text-decoration: none;
+    }
     
  }
  .header{
@@ -33,12 +39,26 @@ GREY COLOR: #555
     margin-bottom: 32px;
  }
 
+ .lorem{
+margin-bottom: 64px;
+}
+
  .section{
     width: 300px;
  }
 
+ .container{
+   max-width: 600px;
+   margin: 0 auto;
+ }
+
  .secondary-header{
     margin-bottom: 32px;
+ }
+
+ .footer-container{
+   display: flex;
+   flex-direction: column-reverse;
  }
 
 
