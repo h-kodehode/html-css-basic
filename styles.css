@@ -9,59 +9,118 @@ MAIN COLOR:
 GREY COLOR: #555
  */
 
- *{
+ *
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
 
  body{
-    background-color: #ffc078;
+    background-color: #ffc078b6;
     color: #302a2a;
+    /* cursor: pointer; */
+ }
+
+ main{
+   display: grid;
+   gap: 24px;
  }
 
  .hero-nav ul{
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 12px;
     list-style: none;
-    padding: 64px;
+    padding: 24px;
+    margin-bottom: 96px;
+   }
+
 
     li a{
-      color: #f03e3e;
+      
+      color: #302a2a;
       font-size: 24px;
       text-decoration: none;
     }
+
+    a:hover {
+      color: #fd7e14;
+      text-decoration: underline;
+    }
     
- }
+    
+ 
  .header{
-    font-size: 30px;
-    margin-bottom: 32px;
+    font-size: 48px;
+    margin-bottom: 36px;
  }
 
  .lorem{
 margin-bottom: 64px;
 }
 
- .section{
-    width: 300px;
- }
+
+.gallery{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffc078;
+   padding: 50px 100px;
+}
 
  .container{
-   max-width: 600px;
-   margin: 0 auto;
+   max-width: 1000px;
+   margin: 0px auto;
  }
 
+
  .secondary-header{
+   font-size: 46px;
     margin-bottom: 32px;
  }
 
- .footer-container{
-   display: flex;
-   flex-direction: column-reverse;
+   .img-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+   max-width: 800px;
+   }
+
+ img{
+   max-width: 100%;
+   
  }
 
+ .img{
+   width: 100%;
+ }
 
+ .img-heading{
+   padding: 16px 0;
+ }
 
+ 
+ .about-header{
+    font: 46px;
+    margin-bottom: 32px;
+   }
+   
+   .about-container{
+   margin-left: 280px;
+   margin-bottom: 100px;
+   }
+ 
+
+.footer-container ul li a{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   font-size: 18px;
+   margin-right: 20px;
+   margin-bottom: 32px;
+   text-decoration: none;
+}
 
 
