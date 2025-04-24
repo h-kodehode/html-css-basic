@@ -41,12 +41,17 @@
     
  
  .header{
+   font-family: 'inter';
     font-size: 48px;
     margin-bottom: 36px;
+    letter-spacing: 1.5px;
  }
 
  .lorem{
+   font-size: 18px;
 margin-bottom: 64px;
+line-height: 24px;
+
 }
 
 
@@ -61,7 +66,7 @@ margin-bottom: 64px;
 
  .container{
    max-width: 1000px;
-   margin: 0px auto;
+   margin: 50px auto;
  }
 
 
@@ -98,7 +103,9 @@ margin-bottom: 64px;
    
    .about-container{
    margin-left: 280px;
+   line-height: 28px;
    margin-bottom: 100px;
+   font-size: 18px;
    }
  
 
